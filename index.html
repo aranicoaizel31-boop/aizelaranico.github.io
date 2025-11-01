@@ -1,0 +1,313 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARANICO'S WEBSITE</title>
+    <style>
+        body {
+            background-color: #121212; 
+            background-size: cover;
+            background-position: center;
+            color: #f0f0f0; 
+            font-family: 'Courier New', Courier, monospace;
+            margin: 50px;
+            padding: 0;
+        }
+        header {
+            background: #1f1f1f; 
+            padding: 10px;
+            text-align: center;
+            border-radius: 25px;
+            border: 2px solid #333;
+        }
+        h1 {
+            margin: 100px;
+            color: #f0f0f0; 
+        }
+        nav {
+            margin: 50px;
+        }
+        nav a {
+            color: #ccc;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #bbb; 
+            text-decoration: underline;
+        }
+        .library {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 30px; 
+            padding: 30px; 
+        }
+        .book {
+            background: #1f1f1f; 
+            padding: 20px; 
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .book:hover {
+            transform: scale(1.05);
+        }
+        .book img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px; 
+            background: #1f1f1f; 
+            position: relative;
+            bottom: 0;
+            width: 96%;
+            color: #ccc; 
+            border: 2px solid #333;
+            border-radius: 100px;
+        }
+        .about, .contact, .resources {
+            padding: 30px;   
+            text-align: left;
+            background: #1f1f1f;
+            margin: 30px; 
+            border-radius: 25px;
+            border: 2px solid #333;
+            color: #f0f0f0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input, textarea {
+            width: 50%; 
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 25px;
+            border: 3px solid #333; 
+            background: #333; 
+            color: #f0f0f0; 
+        }
+        button {
+            background: #444; 
+            color: #eceaea; 
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            border: 2px solid #333;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #555; 
+        }
+        .author-photo {
+            width: 150px;        
+            height: 150px;       
+            border-radius: 100%; 
+            object-fit: cover;   
+        }
+        .home-box {
+            background-color: #1f1f1f; 
+            border: 2px solid #333;    
+            border-radius: 25px;     
+            padding: 95px;            
+            margin: 30px auto;        
+            width: 90%;                
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+        }
+
+        .home-box h2 {
+            color: #f0f0f0;
+        }
+
+        .home-box p {
+            color: #ccc;
+        }
+        .home-box {
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+        }
+        .home-image {
+            width: 50%; 
+            height: auto; 
+            margin-right: 20px; 
+        }
+        .home-content {
+            max-width: 50%; 
+        }
+
+        h2 {
+           text-align: center;
+        }
+
+        li {
+           text-align: center;
+        }
+    
+    </style>
+</head>
+<body>
+
+<header>
+    <h1><big>╰┈➤ Welcome to ZIZI Books Haven!✎</big></h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#library">Library</a>
+        <a href="#about">About the Author</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact">Aizel's Contact</a>
+</header>
+
+<section id="home">
+    <div class="home-box">
+        <img src="book.jpg" alt="Image" class="home-image">
+        <div class="home-content">
+            <h2>HOME ♡ˎˊ˗</h2>
+            <p><big>Welcome to ZIZI Books Haven Kiddos!>⩊< Explore a world full of free reading materials. We offer a wide range of books in different genres. Whether you like adventure, mystery, or fantasy, there's something for everyone. Dive into your next favorite book and start your reading journey today! (˶ᵔ ᵕ ᵔ˶)</big></p>
+        </div>
+    </div>
+</section>
+<section id="library">
+    <center>
+         <h2>⤹ Library ♡</h2>
+    </center>
+    <div class="library">
+        <div class="book">
+            <img src="azriel.jfif" alt="Book Title 1">
+            <h3>Azriel's Obsession</h3>
+            <p>By bubblxdtea</p>
+            <p><a href="https://www.wattpad.com/story/239663939-azriel%27s-obsession-completed" target="_blank" style="color: #ccc; text-decoration: underline;"><i>Read for Free Bb!</i></a></p>
+        </div>
+        <div class="book">
+            <img src="damien.jfif" alt="Book Title 3">
+            <h3>Addicted Damien (Sartori #1)</h3>
+            <p>By Reintold</p>
+            <p><a href="https://www.wattpad.com/949494112-addicted-damien-sartori-1-addicted-damien" target="_blank" style="color: #ccc; text-decoration: underline;"><i>Read for Free Bb!</i></a></p>
+        </div>
+        <div class="book">
+            <img src="diablos.jfif" alt="Book Title 3">
+            <h3>Abused Diablos (Sartori #2)</h3>
+            <p>By Reintold</p>
+            <p><a href="https://www.wattpad.com/story/359695060-abused-diablos-sartori-2" target="_blank" style="color: #ccc; text-decoration: underline;"><i>Read for Free Bb!</i></a></p>
+        </div> 
+        <div class="book">
+            <img src="drugo.jfif" alt="Book Title 3">
+            <h3>Abandoned Drugo (Sartori #3)</h3>
+            <p>By Reintold</p>
+            <p><a href="https://www.wattpad.com/story/370001735-abandoned-drugo-sartori-3" target="_blank" style="color: #ccc; text-decoration: underline;"><i>Read for Free Bb!</i></a></p>
+        </div>
+        <div class="book">
+            <img src="darkkon.jfif" alt="Book Title 3">
+            <h3>Aroused Darkkon (Sartori #4)</h3>
+            <p>By Reintold</p>
+            <p><a href="https://www.wattpad.com/1439280744-aroused-darkkon-sartori-4-aroused-darkkon" target="_blank" style="color: #ccc; text-decoration: underline;"><i>Read for Free Bb!</i></a></p>
+        </div>
+        <div class="book">
+            <img src="xv1.jfif" alt="Book Title 2">
+            <h3>Knock, Knock, Professor (XV SERIES 01)</h3>
+            <p>By irshwndy</p>
+            <p><a href="https://www.wattpad.com/story/302305879-knock-knock-professor" target="_blank" style="color: #ccc; text-decoration: underline;"><i>Read for Free Bb!</i></a></p>
+        </div>
+        <div class="book">
+            <img src="xv2.jfif" alt="Book Title 2">
+            <h3>Hush Louder (XV SERIES 02)</h3>
+            <p>By irshwndy</p>
+            <p><a href="https://www.wattpad.com/story/311114533-hush-louder" target="_blank" style="color: #ccc; text-decoration: underline;"><i>Read for Free Bb!</i></a></p>
+        </div>
+        <div class="book">
+            <img src="xv3.jfif" alt="Book Title 2">
+            <h3>Danger Danger Mr. Stranger (XV SERIES 03)</h3>
+            <p>By irshwndy</p>
+            <p><a href="https://www.wattpad.com/story/323262360-danger-danger-mr-stranger" target="_blank" style="color: #ccc; text-decoration: underline;"><i>Read for Free Bb!</i></a></p>
+        </div>
+        <div class="book">
+            <img src="tbo.jpg" alt="Book Title 2">
+            <h3>The Billionaire's Obsession</h3>
+            <p>By Jamille Fumah</p>
+            <p><a href="https://www.wattpad.com/story/19685313-the-billionaire%27s-obsession" target="_blank" style="color: #ccc; text-decoration: underline;"><i>Read for Free Bb!</i></a></p>
+        </div>
+        <div class="book">
+            <img src="btb.jfif" alt="Book Title 2">
+            <h3>Babysitting The Billionaire</h3>
+            <p>By Jamille Fumah</p>
+            <p><a href="https://www.wattpad.com/796740762-my-jfstories-favorite-book-babysitting-the" target="_blank" style="color: #ccc; text-decoration: underline;"><i>Read for Free Bb!</i></a></p>
+        </div>
+        <div class="book">
+            <img src="suarez1.jpg" alt="Book Title 2">
+            <h3>Fundamentals of Marriage | Suarez 1</h3>
+            <p>By ov3rtin_ker</p>
+            <p><a href="https://www.wattpad.com/story/297991654-fundamentals-of-marriage-suarez-i" target="_blank" style="color: #ccc; text-decoration: underline;"><i>Read for Free Bb!</i></a></p>
+        </div>
+        <div class="book">
+            <img src="suarez2.jpg" alt="Book Title 2">
+            <h3>A Game with Kismet | Suarez 2</h3>
+            <p>By ov3rtin_ker</p>
+            <p><a href="https://www.wattpad.com/story/317492039-a-game-with-kismet-suarez-ii" target="_blank" style="color: #ccc; text-decoration: underline;"><i>Read for Free Bb!</i></a></p>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>⋆˙⟡ About Me ⋆˙⟡</h2>
+    <div class="author-info">
+        <img src="zel.jfif" alt="Aizel Aranico" class="author-photo">
+        <img src="bby.jfif" alt="zel" class="author-photo">
+        <div class="author-text">
+    <p><b>જ⁀➴ Aizel Aranico Gultiano ✿</b></p>
+    <p>Hello! I’m Aizel, you can call me Zel if you want hehe. I love reading books, watching dramas, and trying new foods. I enjoy getting lost in stories, whether they are in a book or on screen. Food is another passion of mine, and I like exploring different dishes and flavors. I always look for new books and shows to enjoy, and I love sharing my favorites with friends.</p>
+    <h3>More About Me:</h3>
+    <ul>
+        <li><strong>Hobbies:</strong> Reading novels, Watching K-Dramas and Anime, and exploring new places.</li>
+        <li><strong>My Favorite Genres:</strong> Romance, Mystery, and Thriller – the more suspenseful, the better hehe.</li>
+        <li><strong>My Writing Journey:</strong> I started writing when I was in high school, but only began sharing my stories with the world a few years ago. It’s been an amazing journey full of learning and growth.</li>
+        <li><strong>What Inspires Me:</strong> I get inspired by real-life experiences, the people I meet, and the stories I hear from others. Whether it’s a simple moment or a big adventure, every part of life offers something unique.</li>
+        <li><strong>My Future Goals:</strong> I dream of publishing a series that will touch the hearts of readers, just like the books that have inspired me through the years.I am also working hard towards opening my own <i><b>BOOKSTORE</b></i> one day. I want to create a cozy space where book lovers can gather, discover new stories, and find that perfect book to get lost in. My vision is for the bookstore to not only be a place for books, but also a community space for readers and writers to connect and share their passions.</li>
+    </ul>
+
+    <h3>Fun Facts:</h3>
+    <ul>
+        <li>I’m a huge fan of K-dramas and Anime! My top favorites are <i><b>Crash Landing on You</b></i> and <i><b>Vagabond</b></i>.For the Anime are <i><b>Haikyuu</b></i>,<i><b>Kimi Ni Todoke</b></i>,<i><b>Fruit Basket</b></i> etc.</li>
+        <li>When I'm not writing or reading, you can find me watching TikTok and IG Reels or listening to Papa Dudot's stories..</li>
+        <li>I have a soft spot for animals and love spending time with my Cat.</li>
+    </ul>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>⊹ Contact</h2>
+    <h2>If you have any questions or feedback, feel free to reach out!</h2>
+    <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="d3bd52de-20d8-47a7-bc99-aead65dd701f">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<section id="contact" class="contact">
+  <h2>✧･ﾟ: *✧ Aizel's Contact ♡ *:･ﾟ✧</h2>
+  <ul style="list-style: none; padding-left: 0; font-size: 1.1em;">
+    <li>📘 <a href="https://www.facebook.com/aizelaranico31" target="_blank" style="color: #f0f0f0;">Facebook</a></li>
+    <li>📸 <a href="https://www.instagram.com/aaaysill/" target="_blank" style="color: #f0f0f0;">Instagram</a></li>
+    <li>💌 <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" style="color: #f0f0f0;">Email Me</a></li>
+    <li>🎵 <a href="https://www.tiktok.com/@aaaaysill" target="_blank" style="color: #f0f0f0;">TikTok</a></li>
+  </ul>
+</section>
+
+
+<footer>
+    <p>&copy; 2025 ZIZI Book Haven. All rights reserved.</p>
+    <br>
+    ────୨୧──── ⸜(｡˃ ᵕ ˂ )⸝♡ ────୨୧────
+</footer>
+</body>
+</html>
